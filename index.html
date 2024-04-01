@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Julian</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="caja-texto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/alerta.svg" alt="alerta">
+                <p>Solo letras minusculas y sin acento</p>
+            </div>
+            <div class="botones">
+                <input type="button" class="encriptar" value="Encriptar">
+                <input type="button" class="desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="muneco">
+                <img src="Imagenes/Muñeco.svg" alt="muneco">
+            </div>
+            <div class="parrafo">
+                <h2>Ningun mensaje fue <br> encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="resultado">
+                <p class="textoResultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="apps.js"></script>
+</body>
+</html>
